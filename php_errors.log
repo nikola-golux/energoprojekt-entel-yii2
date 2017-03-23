@@ -1,0 +1,206 @@
+[23-Mar-2017 18:06:44 UTC] PHP Fatal error:  Class 'app\models\EmployeesFirms' not found in /home/ubuntu/workspace/models/Employee.php on line 57
+[23-Mar-2017 18:06:44 UTC] PHP Stack trace:
+[23-Mar-2017 18:06:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[23-Mar-2017 18:06:44 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[23-Mar-2017 18:06:44 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:380
+[23-Mar-2017 18:06:44 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:102
+[23-Mar-2017 18:06:44 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:523
+[23-Mar-2017 18:06:44 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:156
+[23-Mar-2017 18:06:44 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[23-Mar-2017 18:06:44 UTC] PHP   8. app\controllers\EmployeeController->actionView() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[23-Mar-2017 18:06:44 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/controllers/EmployeeController.php:56
+[23-Mar-2017 18:06:44 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:381
+[23-Mar-2017 18:06:44 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:152
+[23-Mar-2017 18:06:44 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:250
+[23-Mar-2017 18:06:44 UTC] PHP  13. require() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:328
+[23-Mar-2017 18:06:44 UTC] PHP  14. yii\db\BaseActiveRecord->__get() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:42
+[23-Mar-2017 18:06:44 UTC] PHP  15. yii\base\Component->__get() /home/ubuntu/workspace/vendor/yiisoft/yii2/db/BaseActiveRecord.php:286
+[23-Mar-2017 18:06:44 UTC] PHP  16. app\models\Employee->getRules() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:132
+[23-Mar-2017 18:19:49 UTC] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\db\ActiveQuery::last() does not exist' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\db\ActiveQu...', 'last')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\db\ActiveQu...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem('/home/ubuntu/wo...', 57, 'yii\db\ActiveQu...', 'last', Array, 3)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownMethodException))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownMethodException))
+#13 {main}
+Previous exception:
+exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\db\ActiveQuery::last()' in /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:290
+Stack trace:
+#0 /home/ubuntu/workspace/models/Employee.php(57): yii\base\Component->__call('last', Array)
+#1 /home/ubuntu/workspace/models/Employee.php(57): yii\db\ActiveQuery->last()
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(132): app\models\Employee->getRules()
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/BaseActiveRecord.php(286): yii\base\Component->__get('rules')
+#4 /home/ubuntu/workspace/views/employee/view.php(42): yii\db\BaseActiveRecord->__get('rules')
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\EmployeeController))
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('view', Array, Object(app\controllers\EmployeeController))
+#9 /home/ubuntu/workspace/controllers/EmployeeController.php(56): yii\base\Controller->render('view', Array)
+#10 [internal function]: app\controllers\EmployeeController->actionView('7')
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('view', Array)
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('employee/view', Array)
+#15 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#17 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'epentel-yii2-golux.c9users.io',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_REFERER' => 'https://epentel-yii2-golux.c9users.io/web/employee',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'sr-RS,sr;q=0.8,en-US;q=0.6,en;q=0.4',
+    'HTTP_COOKIE' => '_csrf=25640f1f99a00ec930d0b649f2f31fc46f8885bad96ca0db00b8ad427bf5828da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eEPonYsu-rtkiEwAWpvKM_8oP9xVteVk%22%3B%7D; PHPSESSID=dubv80nj72mopt6u79tul3iq31; XDEBUG_SESSION=cloud9ide',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_REGION' => 'eu',
+    'HTTP_X_FORWARDED_FOR' => '24.135.82.119',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.7.3/bin:/usr/local/rvm/gems/ruby-2.3.0/bin:/usr/local/rvm/gems/ruby-2.3.0@global/bin:/usr/local/rvm/rubies/ruby-2.3.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin',
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at epentel-yii2-golux.c9users.io Port 443</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+    'SERVER_NAME' => 'epentel-yii2-golux.c9users.io',
+    'SERVER_ADDR' => '172.17.0.93',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '10.240.0.185',
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php',
+    'REMOTE_PORT' => '60880',
+    'REDIRECT_QUERY_STRING' => 'id=7',
+    'REDIRECT_URL' => '/web/employee/view',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'id=7',
+    'REQUEST_URI' => '/web/employee/view?id=7',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1490293189.1400001049041748046875,
+    'REQUEST_TIME' => 1490293189,
+]
+[23-Mar-2017 18:20:37 UTC] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\db\ActiveQuery::end() does not exist' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\db\ActiveQu...', 'end')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\db\ActiveQu...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem('/home/ubuntu/wo...', 57, 'yii\db\ActiveQu...', 'end', Array, 3)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownMethodException))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownMethodException))
+#13 {main}
+Previous exception:
+exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\db\ActiveQuery::end()' in /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:290
+Stack trace:
+#0 /home/ubuntu/workspace/models/Employee.php(57): yii\base\Component->__call('end', Array)
+#1 /home/ubuntu/workspace/models/Employee.php(57): yii\db\ActiveQuery->end()
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(132): app\models\Employee->getRules()
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/BaseActiveRecord.php(286): yii\base\Component->__get('rules')
+#4 /home/ubuntu/workspace/views/employee/view.php(42): yii\db\BaseActiveRecord->__get('rules')
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\EmployeeController))
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('view', Array, Object(app\controllers\EmployeeController))
+#9 /home/ubuntu/workspace/controllers/EmployeeController.php(56): yii\base\Controller->render('view', Array)
+#10 [internal function]: app\controllers\EmployeeController->actionView('7')
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('view', Array)
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('employee/view', Array)
+#15 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#17 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'epentel-yii2-golux.c9users.io',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_REFERER' => 'https://epentel-yii2-golux.c9users.io/web/employee',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'sr-RS,sr;q=0.8,en-US;q=0.6,en;q=0.4',
+    'HTTP_COOKIE' => '_csrf=25640f1f99a00ec930d0b649f2f31fc46f8885bad96ca0db00b8ad427bf5828da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eEPonYsu-rtkiEwAWpvKM_8oP9xVteVk%22%3B%7D; PHPSESSID=dubv80nj72mopt6u79tul3iq31; XDEBUG_SESSION=cloud9ide',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_REGION' => 'eu',
+    'HTTP_X_FORWARDED_FOR' => '24.135.82.119',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.7.3/bin:/usr/local/rvm/gems/ruby-2.3.0/bin:/usr/local/rvm/gems/ruby-2.3.0@global/bin:/usr/local/rvm/rubies/ruby-2.3.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin',
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at epentel-yii2-golux.c9users.io Port 443</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+    'SERVER_NAME' => 'epentel-yii2-golux.c9users.io',
+    'SERVER_ADDR' => '172.17.0.93',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '10.240.1.4',
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php',
+    'REMOTE_PORT' => '51990',
+    'REDIRECT_QUERY_STRING' => 'id=7',
+    'REDIRECT_URL' => '/web/employee/view',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'id=7',
+    'REQUEST_URI' => '/web/employee/view?id=7',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1490293237.7739999294281005859375,
+    'REQUEST_TIME' => 1490293237,
+]
+[23-Mar-2017 18:36:51 UTC] PHP Fatal error:  Class 'app\controllers\ActiveDataProvider' not found in /home/ubuntu/workspace/controllers/SiteController.php on line 63
+[23-Mar-2017 18:36:51 UTC] PHP Stack trace:
+[23-Mar-2017 18:36:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[23-Mar-2017 18:36:51 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[23-Mar-2017 18:36:51 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:380
+[23-Mar-2017 18:36:51 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:102
+[23-Mar-2017 18:36:51 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:523
+[23-Mar-2017 18:36:51 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:156
+[23-Mar-2017 18:36:51 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[23-Mar-2017 18:36:51 UTC] PHP   8. app\controllers\SiteController->actionIndex() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[23-Mar-2017 19:24:40 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ubuntu/workspace/views/employee/view.php on line 38
+[23-Mar-2017 19:24:40 UTC] PHP Stack trace:
+[23-Mar-2017 19:24:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[23-Mar-2017 19:24:40 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[23-Mar-2017 19:24:40 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:380
+[23-Mar-2017 19:24:40 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:102
+[23-Mar-2017 19:24:40 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:523
+[23-Mar-2017 19:24:40 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:156
+[23-Mar-2017 19:24:40 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[23-Mar-2017 19:24:40 UTC] PHP   8. app\controllers\EmployeeController->actionView() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[23-Mar-2017 19:24:40 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/controllers/EmployeeController.php:56
+[23-Mar-2017 19:24:40 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:381
+[23-Mar-2017 19:24:40 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:152
+[23-Mar-2017 19:24:40 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:250
