@@ -6,7 +6,7 @@ use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model app\models\Firm */
 
-$this->title = $model->id;
+$this->title = 'Pregled firme: '.$model->ime_firme;
 $this->params['breadcrumbs'][] = ['label' => 'Firms', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
@@ -30,8 +30,6 @@ $this->params['breadcrumbs'][] = $this->title;
         'attributes' => [
             'id',
             'ime_firme',
-            'created_at',
-            'updated_at',
         ],
     ]) ?>
 

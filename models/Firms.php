@@ -15,7 +15,7 @@ use Yii;
  * @property Employees[] $employees
  * @property EmployeesFirms[] $employeesFirms
  */
-class Firm extends \yii\db\ActiveRecord
+class Firms extends \yii\db\ActiveRecord
 {
     /**
      * @inheritdoc
@@ -31,6 +31,7 @@ class Firm extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
+            [['created_at', 'updated_at'], 'required'],
             [['created_at', 'updated_at'], 'safe'],
             [['ime_firme'], 'string', 'max' => 255],
         ];

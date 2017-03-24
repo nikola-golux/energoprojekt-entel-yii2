@@ -33,6 +33,10 @@ class ComposerStaticInit99d169125d91c7c80ee3c3b2e97ee003
         array (
             'cebe\\markdown\\' => 14,
         ),
+        'a' => 
+        array (
+            'arogachev\\ManyToMany\\' => 21,
+        ),
         'W' => 
         array (
             'Webmozart\\Assert\\' => 17,
@@ -112,6 +116,10 @@ class ComposerStaticInit99d169125d91c7c80ee3c3b2e97ee003
         'cebe\\markdown\\' => 
         array (
             0 => __DIR__ . '/..' . '/cebe/markdown',
+        ),
+        'arogachev\\ManyToMany\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/arogachev/yii2-many-to-many',
         ),
         'Webmozart\\Assert\\' => 
         array (

@@ -3,7 +3,6 @@
 namespace app\models;
 
 use Yii;
-use yii\base\Model;
 
 /**
  * This is the model class for table "employees".
@@ -14,6 +13,10 @@ use yii\base\Model;
  * @property string $Zanimanje
  * @property string $created_at
  * @property string $updated_at
+ * @property integer $firm_id
+ *
+ * @property Firms $firm
+ * @property EmployeesFirms[] $employeesFirms
  */
 class Employee extends \yii\db\ActiveRecord
 {
@@ -31,9 +34,11 @@ class Employee extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['created_at', 'updated_at'], 'required'],
+            [['firm_id'], 'required'],
             [['created_at', 'updated_at'], 'safe'],
+            [['firm_id'], 'integer'],
             [['Ime', 'Prezime', 'Zanimanje'], 'string', 'max' => 255],
+            [['firm_id'], 'exist', 'skipOnError' => true, 'targetClass' => Firms::className(), 'targetAttribute' => ['firm_id' => 'id']],
         ];
     }
 
@@ -49,11 +54,23 @@ class Employee extends \yii\db\ActiveRecord
             'Zanimanje' => 'Zanimanje',
             'created_at' => 'Created At',
             'updated_at' => 'Updated At',
+            'firm_id' => 'Firm ID',
         ];
     }
-    
-    public function getRules() {
-        return $this->hasMany(Firm::className(), ['id' => 'id_firm'])
-            ->viaTable(EmployeeFirmMapping::tableName(), ['id_employee' => 'id']);
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getFirm()
+    {
+        return $this->hasOne(Firms::className(), ['id' => 'firm_id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getEmployeesFirms()
+    {
+        return $this->hasMany(EmployeesFirms::className(), ['employee_id' => 'id']);
     }
 }

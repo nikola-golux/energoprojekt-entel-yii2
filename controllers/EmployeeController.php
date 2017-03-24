@@ -64,7 +64,7 @@ class EmployeeController extends Controller
     public function actionCreate()
     {
         $model = new Employee();
-        
+
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
@@ -113,6 +113,7 @@ class EmployeeController extends Controller
      * @return Employee the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
+     
     protected function findModel($id)
     {
         if (($model = Employee::findOne($id)) !== null) {

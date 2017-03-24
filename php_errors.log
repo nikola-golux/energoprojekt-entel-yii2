@@ -204,3 +204,1967 @@ $_SERVER = [
 [23-Mar-2017 19:24:40 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:381
 [23-Mar-2017 19:24:40 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:152
 [23-Mar-2017 19:24:40 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:250
+[24-Mar-2017 00:38:46 UTC] PHP Fatal error:  Class 'Firm' not found in /home/ubuntu/workspace/views/employee/view.php on line 35
+[24-Mar-2017 00:38:46 UTC] PHP Stack trace:
+[24-Mar-2017 00:38:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[24-Mar-2017 00:38:46 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[24-Mar-2017 00:38:46 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:380
+[24-Mar-2017 00:38:46 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:102
+[24-Mar-2017 00:38:46 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:523
+[24-Mar-2017 00:38:46 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:156
+[24-Mar-2017 00:38:46 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Mar-2017 00:38:46 UTC] PHP   8. app\controllers\EmployeeController->actionView() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Mar-2017 00:38:46 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/controllers/EmployeeController.php:56
+[24-Mar-2017 00:38:46 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:381
+[24-Mar-2017 00:38:46 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:152
+[24-Mar-2017 00:38:46 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:250
+[24-Mar-2017 00:38:46 UTC] PHP  13. require() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:328
+[24-Mar-2017 00:39:32 UTC] PHP Fatal error:  Class 'Firm' not found in /home/ubuntu/workspace/views/employee/view.php on line 36
+[24-Mar-2017 00:39:32 UTC] PHP Stack trace:
+[24-Mar-2017 00:39:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[24-Mar-2017 00:39:32 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[24-Mar-2017 00:39:32 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:380
+[24-Mar-2017 00:39:32 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:102
+[24-Mar-2017 00:39:32 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:523
+[24-Mar-2017 00:39:32 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:156
+[24-Mar-2017 00:39:32 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Mar-2017 00:39:32 UTC] PHP   8. app\controllers\EmployeeController->actionView() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Mar-2017 00:39:32 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/controllers/EmployeeController.php:56
+[24-Mar-2017 00:39:32 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:381
+[24-Mar-2017 00:39:32 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:152
+[24-Mar-2017 00:39:32 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:250
+[24-Mar-2017 00:39:32 UTC] PHP  13. require() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:328
+[24-Mar-2017 08:36:23 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ']' in /home/ubuntu/workspace/views/site/index.php on line 42
+[24-Mar-2017 08:36:23 UTC] PHP Stack trace:
+[24-Mar-2017 08:36:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[24-Mar-2017 08:36:23 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[24-Mar-2017 08:36:23 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:380
+[24-Mar-2017 08:36:23 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:102
+[24-Mar-2017 08:36:23 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:523
+[24-Mar-2017 08:36:23 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:156
+[24-Mar-2017 08:36:23 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Mar-2017 08:36:23 UTC] PHP   8. app\controllers\SiteController->actionIndex() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Mar-2017 08:36:23 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/controllers/SiteController.php:73
+[24-Mar-2017 08:36:23 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:381
+[24-Mar-2017 08:36:23 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:152
+[24-Mar-2017 08:36:23 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:250
+[24-Mar-2017 08:36:53 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/ubuntu/workspace/views/site/index.php on line 48
+[24-Mar-2017 08:36:53 UTC] PHP Stack trace:
+[24-Mar-2017 08:36:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[24-Mar-2017 08:36:53 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[24-Mar-2017 08:36:53 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:380
+[24-Mar-2017 08:36:53 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:102
+[24-Mar-2017 08:36:53 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:523
+[24-Mar-2017 08:36:53 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:156
+[24-Mar-2017 08:36:53 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Mar-2017 08:36:53 UTC] PHP   8. app\controllers\SiteController->actionIndex() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Mar-2017 08:36:53 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/controllers/SiteController.php:73
+[24-Mar-2017 08:36:53 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:381
+[24-Mar-2017 08:36:53 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:152
+[24-Mar-2017 08:36:53 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:250
+[24-Mar-2017 08:37:29 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/ubuntu/workspace/views/site/index.php on line 47
+[24-Mar-2017 08:37:29 UTC] PHP Stack trace:
+[24-Mar-2017 08:37:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[24-Mar-2017 08:37:29 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[24-Mar-2017 08:37:29 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:380
+[24-Mar-2017 08:37:29 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:102
+[24-Mar-2017 08:37:29 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:523
+[24-Mar-2017 08:37:29 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:156
+[24-Mar-2017 08:37:29 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Mar-2017 08:37:29 UTC] PHP   8. app\controllers\SiteController->actionIndex() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Mar-2017 08:37:29 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/controllers/SiteController.php:73
+[24-Mar-2017 08:37:29 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:381
+[24-Mar-2017 08:37:29 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:152
+[24-Mar-2017 08:37:29 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:250
+[24-Mar-2017 08:38:55 UTC] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\base\View::{closure}() does not exist' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\base\View', '{closure}')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\base\View::...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\base\View', '{closure}', Array, 4)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#13 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Employee::groups' in /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:147
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/BaseActiveRecord.php(286): yii\base\Component->__get('groups')
+#1 /home/ubuntu/workspace/views/site/index.php(38): yii\db\BaseActiveRecord->__get('groups')
+#2 [internal function]: yii\base\View->{closure}(Object(app\models\Employee), 4, 0, Object(yii\grid\DataColumn))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/DataColumn.php(213): call_user_func(Object(Closure), Object(app\models\Employee), 4, 0, Object(yii\grid\DataColumn))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/DataColumn.php(227): yii\grid\DataColumn->getDataCellValue(Object(app\models\Employee), 4, 0)
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/Column.php(110): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Employee), 4, 0)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(507): yii\grid\Column->renderDataCell(Object(app\models\Employee), 4, 0)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(476): yii\grid\GridView->renderTableRow(Object(app\models\Employee), 4, 0)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(347): yii\grid\GridView->renderTableBody()
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(155): yii\grid\GridView->renderItems()
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('{items}')
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#15 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#16 /home/ubuntu/workspace/views/site/index.php(46): yii\base\Widget::widget(Array)
+#17 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#18 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#19 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#20 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#21 /home/ubuntu/workspace/controllers/SiteController.php(73): yii\base\Controller->render('index', Array)
+#22 [internal function]: app\controllers\SiteController->actionIndex()
+#23 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#24 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#25 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#26 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/index', Array)
+#27 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#29 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'epentel-yii2-golux.c9users.io',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_REFERER' => 'https://epentel-yii2-golux.c9users.io/web/site/index',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'sr-RS,sr;q=0.8,en-US;q=0.6,en;q=0.4',
+    'HTTP_COOKIE' => '_csrf=8622b03a94af416673d2924a970b5df4ec0ad09f1e0d52084ed90d9109643ed0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22f5m1HurP5Jv0WNEL53UftsjzBceVPRQJ%22%3B%7D; XDEBUG_SESSION=cloud9ide',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_REGION' => 'eu',
+    'HTTP_X_FORWARDED_FOR' => '24.135.82.119',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.7.3/bin:/usr/local/rvm/gems/ruby-2.3.0/bin:/usr/local/rvm/gems/ruby-2.3.0@global/bin:/usr/local/rvm/rubies/ruby-2.3.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin',
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at epentel-yii2-golux.c9users.io Port 443</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+    'SERVER_NAME' => 'epentel-yii2-golux.c9users.io',
+    'SERVER_ADDR' => '172.17.0.98',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '10.240.0.224',
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php',
+    'REMOTE_PORT' => '46304',
+    'REDIRECT_URL' => '/web/site/index',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/web/site/index',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1490344735.0299999713897705078125,
+    'REQUEST_TIME' => 1490344735,
+]
+[24-Mar-2017 08:39:11 UTC] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\base\View::{closure}() does not exist' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\base\View', '{closure}')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\base\View::...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\base\View', '{closure}', Array, 15)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\db\Exception))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\db\Exception))
+#13 {main}
+Previous exception:
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_employee' in 'where clause'' in /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php:902
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(902): PDOStatement->execute()
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(Object(yii\db\Connection))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(540): yii\db\ActiveQuery->all(Object(yii\db\Connection))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(171): yii\db\ActiveQuery->findJunctionRows('[<span class="t...')
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/QueryBuilder.php(92): yii\db\ActiveQuery->prepare(Object(yii\db\mysql\QueryBuilder))
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(319): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(213): yii\db\ActiveQuery->createCommand('<span class="ke...')
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(158): yii\db\ActiveQuery->all()
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/BaseActiveRecord.php(288): yii\db\ActiveQuery->findFor('<span class="st...', Object(app\models\Employee))
+#12 /home/ubuntu/workspace/views/site/index.php(38): yii\db\BaseActiveRecord->__get('<span class="st...')
+#13 [internal function]: yii\base\View->{closure}(Object(app\models\Employee), 4, 0, Object(yii\grid\DataColumn))
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/DataColumn.php(213): call_user_func(Object(Closure), Object(app\models\Employee), 4, 0, Object(yii\grid\DataColumn))
+#15 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/DataColumn.php(227): yii\grid\DataColumn->getDataCellValue(Object(app\models\Employee), 4, 0)
+#16 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/Column.php(110): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Employee), 4, 0)
+#17 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(507): yii\grid\Column->renderDataCell(Object(app\models\Employee), 4, 0)
+#18 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(476): yii\grid\GridView->renderTableRow(Object(app\models\Employee), 4, 0)
+#19 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(347): yii\grid\GridView->renderTableBody()
+#20 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(155): yii\grid\GridView->renderItems()
+#21 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('{items}')
+#22 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('{items}')
+#23 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#24 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#25 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#26 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#27 /home/ubuntu/workspace/views/site/index.php(46): yii\base\Widget::widget(Array)
+#28 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#29 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#30 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#31 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#32 /home/ubuntu/workspace/controllers/SiteController.php(73): yii\base\Controller->render('index', Array)
+#33 [internal function]: app\controllers\SiteController->actionIndex()
+#34 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#35 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#36 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#37 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/index', Array)
+#38 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#39 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#40 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_employee' in 'where clause'
+The SQL being executed was: SELECT * FROM `employees_firms` WHERE `id_employee`=4' in /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(917): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(Object(yii\db\Connection))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(540): yii\db\ActiveQuery->all(Object(yii\db\Connection))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(171): yii\db\ActiveQuery->findJunctionRows('[<span class="t...')
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/QueryBuilder.php(92): yii\db\ActiveQuery->prepare(Object(yii\db\mysql\QueryBuilder))
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(319): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(213): yii\db\ActiveQuery->createCommand('<span class="ke...')
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(158): yii\db\ActiveQuery->all()
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/BaseActiveRecord.php(288): yii\db\ActiveQuery->findFor('<span class="st...', Object(app\models\Employee))
+#12 /home/ubuntu/workspace/views/site/index.php(38): yii\db\BaseActiveRecord->__get('<span class="st...')
+#13 [internal function]: yii\base\View->{closure}(Object(app\models\Employee), 4, 0, Object(yii\grid\DataColumn))
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/DataColumn.php(213): call_user_func(Object(Closure), Object(app\models\Employee), 4, 0, Object(yii\grid\DataColumn))
+#15 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/DataColumn.php(227): yii\grid\DataColumn->getDataCellValue(Object(app\models\Employee), 4, 0)
+#16 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/Column.php(110): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Employee), 4, 0)
+#17 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(507): yii\grid\Column->renderDataCell(Object(app\models\Employee), 4, 0)
+#18 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(476): yii\grid\GridView->renderTableRow(Object(app\models\Employee), 4, 0)
+#19 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(347): yii\grid\GridView->renderTableBody()
+#20 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(155): yii\grid\GridView->renderItems()
+#21 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('{items}')
+#22 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('{items}')
+#23 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#24 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#25 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#26 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#27 /home/ubuntu/workspace/views/site/index.php(46): yii\base\Widget::widget(Array)
+#28 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#29 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#30 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#31 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#32 /home/ubuntu/workspace/controllers/SiteController.php(73): yii\base\Controller->render('index', Array)
+#33 [internal function]: app\controllers\SiteController->actionIndex()
+#34 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#35 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#36 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#37 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/index', Array)
+#38 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#39 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#40 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id_employee' in 'where clause'
+)
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'epentel-yii2-golux.c9users.io',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_REFERER' => 'https://epentel-yii2-golux.c9users.io/web/site/index',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'sr-RS,sr;q=0.8,en-US;q=0.6,en;q=0.4',
+    'HTTP_COOKIE' => '_csrf=8622b03a94af416673d2924a970b5df4ec0ad09f1e0d52084ed90d9109643ed0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22f5m1HurP5Jv0WNEL53UftsjzBceVPRQJ%22%3B%7D; XDEBUG_SESSION=cloud9ide',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_REGION' => 'eu',
+    'HTTP_X_FORWARDED_FOR' => '24.135.82.119',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.7.3/bin:/usr/local/rvm/gems/ruby-2.3.0/bin:/usr/local/rvm/gems/ruby-2.3.0@global/bin:/usr/local/rvm/rubies/ruby-2.3.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin',
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at epentel-yii2-golux.c9users.io Port 443</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+    'SERVER_NAME' => 'epentel-yii2-golux.c9users.io',
+    'SERVER_ADDR' => '172.17.0.98',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '10.240.0.196',
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php',
+    'REMOTE_PORT' => '58326',
+    'REDIRECT_URL' => '/web/site/index',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/web/site/index',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1490344751.1140000820159912109375,
+    'REQUEST_TIME' => 1490344751,
+]
+[24-Mar-2017 09:03:21 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/ubuntu/workspace/views/site/index.php on line 37
+[24-Mar-2017 09:03:21 UTC] PHP Stack trace:
+[24-Mar-2017 09:03:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[24-Mar-2017 09:03:21 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[24-Mar-2017 09:03:21 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:380
+[24-Mar-2017 09:03:21 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:102
+[24-Mar-2017 09:03:21 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:523
+[24-Mar-2017 09:03:21 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:156
+[24-Mar-2017 09:03:21 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Mar-2017 09:03:21 UTC] PHP   8. app\controllers\SiteController->actionIndex() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Mar-2017 09:03:21 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/controllers/SiteController.php:73
+[24-Mar-2017 09:03:21 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:381
+[24-Mar-2017 09:03:21 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:152
+[24-Mar-2017 09:03:21 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:250
+[24-Mar-2017 09:03:39 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/ubuntu/workspace/views/site/index.php on line 35
+[24-Mar-2017 09:03:39 UTC] PHP Stack trace:
+[24-Mar-2017 09:03:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[24-Mar-2017 09:03:39 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[24-Mar-2017 09:03:39 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:380
+[24-Mar-2017 09:03:39 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:102
+[24-Mar-2017 09:03:39 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:523
+[24-Mar-2017 09:03:39 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:156
+[24-Mar-2017 09:03:39 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Mar-2017 09:03:39 UTC] PHP   8. app\controllers\SiteController->actionIndex() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Mar-2017 09:03:39 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/controllers/SiteController.php:73
+[24-Mar-2017 09:03:39 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:381
+[24-Mar-2017 09:03:39 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:152
+[24-Mar-2017 09:03:39 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:250
+[24-Mar-2017 09:03:48 UTC] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\widgets\BaseListView::yii\widgets\{closure}() does not exist' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\widgets\Bas...', 'yii\widgets\{cl...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\widgets\Bas...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\widgets\Bas...', 'yii\widgets\{cl...', Array, 20)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\db\Exception))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\db\Exception))
+#13 {main}
+Previous exception:
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_employee' in 'where clause'' in /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php:902
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(902): PDOStatement->execute()
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(Object(yii\db\Connection))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(540): yii\db\ActiveQuery->all(Object(yii\db\Connection))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(204): yii\db\ActiveQuery->findJunctionRows('[<span class="t...')
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQueryTrait.php(174): yii\db\ActiveQuery->populateRelation('<span class="st...', '<span class="st...')
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(215): yii\db\ActiveQuery->findWith('[<span class="s...', '<span class="st...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(214): yii\db\ActiveQuery->populate('[[<span class="...')
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/ActiveDataProvider.php(113): yii\db\ActiveQuery->all('<span class="ke...')
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(81): yii\data\ActiveDataProvider->prepareModels()
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(94): yii\data\BaseDataProvider->prepare()
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(135): yii\data\BaseDataProvider->getModels()
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(182): yii\data\BaseDataProvider->getCount()
+#15 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(153): yii\widgets\BaseListView->renderSummary()
+#16 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('<span class="st...')
+#17 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('<span class="st...')
+#18 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#19 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#20 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#21 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#22 /home/ubuntu/workspace/views/site/index.php(37): yii\base\Widget::widget(Array)
+#23 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#24 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#25 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#26 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#27 /home/ubuntu/workspace/controllers/SiteController.php(73): yii\base\Controller->render('index', Array)
+#28 [internal function]: app\controllers\SiteController->actionIndex()
+#29 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#30 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#31 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#32 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/index', Array)
+#33 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#34 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#35 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_employee' in 'where clause'
+The SQL being executed was: SELECT * FROM `employees_firms` WHERE `id_employee` IN (4, 5, 6, 7)' in /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(917): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(Object(yii\db\Connection))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(540): yii\db\ActiveQuery->all(Object(yii\db\Connection))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(204): yii\db\ActiveQuery->findJunctionRows('[<span class="t...')
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQueryTrait.php(174): yii\db\ActiveQuery->populateRelation('<span class="st...', '<span class="st...')
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(215): yii\db\ActiveQuery->findWith('[<span class="s...', '<span class="st...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(214): yii\db\ActiveQuery->populate('[[<span class="...')
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/ActiveDataProvider.php(113): yii\db\ActiveQuery->all('<span class="ke...')
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(81): yii\data\ActiveDataProvider->prepareModels()
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(94): yii\data\BaseDataProvider->prepare()
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(135): yii\data\BaseDataProvider->getModels()
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(182): yii\data\BaseDataProvider->getCount()
+#15 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(153): yii\widgets\BaseListView->renderSummary()
+#16 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('<span class="st...')
+#17 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('<span class="st...')
+#18 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#19 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#20 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#21 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#22 /home/ubuntu/workspace/views/site/index.php(37): yii\base\Widget::widget(Array)
+#23 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#24 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#25 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#26 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#27 /home/ubuntu/workspace/controllers/SiteController.php(73): yii\base\Controller->render('index', Array)
+#28 [internal function]: app\controllers\SiteController->actionIndex()
+#29 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#30 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#31 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#32 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/index', Array)
+#33 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#34 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#35 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id_employee' in 'where clause'
+)
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'epentel-yii2-golux.c9users.io',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_REFERER' => 'https://epentel-yii2-golux.c9users.io/web/site/index',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'sr-RS,sr;q=0.8,en-US;q=0.6,en;q=0.4',
+    'HTTP_COOKIE' => '_csrf=8622b03a94af416673d2924a970b5df4ec0ad09f1e0d52084ed90d9109643ed0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22f5m1HurP5Jv0WNEL53UftsjzBceVPRQJ%22%3B%7D; XDEBUG_SESSION=cloud9ide',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_REGION' => 'eu',
+    'HTTP_X_FORWARDED_FOR' => '24.135.82.119',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.7.3/bin:/usr/local/rvm/gems/ruby-2.3.0/bin:/usr/local/rvm/gems/ruby-2.3.0@global/bin:/usr/local/rvm/rubies/ruby-2.3.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin',
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at epentel-yii2-golux.c9users.io Port 443</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+    'SERVER_NAME' => 'epentel-yii2-golux.c9users.io',
+    'SERVER_ADDR' => '172.17.0.98',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '10.240.0.181',
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php',
+    'REMOTE_PORT' => '36324',
+    'REDIRECT_URL' => '/web/site/index',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/web/site/index',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1490346228.684999942779541015625,
+    'REQUEST_TIME' => 1490346228,
+]
+[24-Mar-2017 09:09:04 UTC] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\widgets\BaseListView::yii\widgets\{closure}() does not exist' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\widgets\Bas...', 'yii\widgets\{cl...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\widgets\Bas...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\widgets\Bas...', 'yii\widgets\{cl...', Array, 20)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\db\Exception))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\db\Exception))
+#13 {main}
+Previous exception:
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_employee' in 'where clause'' in /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php:902
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(902): PDOStatement->execute()
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(Object(yii\db\Connection))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(540): yii\db\ActiveQuery->all(Object(yii\db\Connection))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(204): yii\db\ActiveQuery->findJunctionRows('[<span class="t...')
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQueryTrait.php(174): yii\db\ActiveQuery->populateRelation('<span class="st...', '<span class="st...')
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(215): yii\db\ActiveQuery->findWith('[<span class="s...', '<span class="st...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(214): yii\db\ActiveQuery->populate('[[<span class="...')
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/ActiveDataProvider.php(113): yii\db\ActiveQuery->all('<span class="ke...')
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(81): yii\data\ActiveDataProvider->prepareModels()
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(94): yii\data\BaseDataProvider->prepare()
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(135): yii\data\BaseDataProvider->getModels()
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(182): yii\data\BaseDataProvider->getCount()
+#15 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(153): yii\widgets\BaseListView->renderSummary()
+#16 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('<span class="st...')
+#17 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('<span class="st...')
+#18 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#19 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#20 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#21 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#22 /home/ubuntu/workspace/views/site/index.php(37): yii\base\Widget::widget(Array)
+#23 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#24 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#25 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#26 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#27 /home/ubuntu/workspace/controllers/SiteController.php(73): yii\base\Controller->render('index', Array)
+#28 [internal function]: app\controllers\SiteController->actionIndex()
+#29 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#30 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#31 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#32 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/index', Array)
+#33 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#34 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#35 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_employee' in 'where clause'
+The SQL being executed was: SELECT * FROM `employees_firms` WHERE `id_employee` IN (4, 5, 6, 7)' in /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(917): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(Object(yii\db\Connection))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(540): yii\db\ActiveQuery->all(Object(yii\db\Connection))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(204): yii\db\ActiveQuery->findJunctionRows('[<span class="t...')
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQueryTrait.php(174): yii\db\ActiveQuery->populateRelation('<span class="st...', '<span class="st...')
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(215): yii\db\ActiveQuery->findWith('[<span class="s...', '<span class="st...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(214): yii\db\ActiveQuery->populate('[[<span class="...')
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/ActiveDataProvider.php(113): yii\db\ActiveQuery->all('<span class="ke...')
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(81): yii\data\ActiveDataProvider->prepareModels()
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(94): yii\data\BaseDataProvider->prepare()
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(135): yii\data\BaseDataProvider->getModels()
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(182): yii\data\BaseDataProvider->getCount()
+#15 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(153): yii\widgets\BaseListView->renderSummary()
+#16 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('<span class="st...')
+#17 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('<span class="st...')
+#18 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#19 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#20 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#21 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#22 /home/ubuntu/workspace/views/site/index.php(37): yii\base\Widget::widget(Array)
+#23 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#24 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#25 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#26 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#27 /home/ubuntu/workspace/controllers/SiteController.php(73): yii\base\Controller->render('index', Array)
+#28 [internal function]: app\controllers\SiteController->actionIndex()
+#29 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#30 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#31 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#32 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/index', Array)
+#33 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#34 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#35 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id_employee' in 'where clause'
+)
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'epentel-yii2-golux.c9users.io',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_REFERER' => 'https://epentel-yii2-golux.c9users.io/web/site/index',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'sr-RS,sr;q=0.8,en-US;q=0.6,en;q=0.4',
+    'HTTP_COOKIE' => '_csrf=8622b03a94af416673d2924a970b5df4ec0ad09f1e0d52084ed90d9109643ed0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22f5m1HurP5Jv0WNEL53UftsjzBceVPRQJ%22%3B%7D; XDEBUG_SESSION=cloud9ide',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_REGION' => 'eu',
+    'HTTP_X_FORWARDED_FOR' => '24.135.82.119',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.7.3/bin:/usr/local/rvm/gems/ruby-2.3.0/bin:/usr/local/rvm/gems/ruby-2.3.0@global/bin:/usr/local/rvm/rubies/ruby-2.3.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin',
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at epentel-yii2-golux.c9users.io Port 443</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+    'SERVER_NAME' => 'epentel-yii2-golux.c9users.io',
+    'SERVER_ADDR' => '172.17.0.98',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '10.240.0.185',
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php',
+    'REMOTE_PORT' => '54588',
+    'REDIRECT_URL' => '/web/site/index',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/web/site/index',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1490346544.9119999408721923828125,
+    'REQUEST_TIME' => 1490346544,
+]
+[24-Mar-2017 10:56:41 UTC] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\widgets\BaseListView::yii\widgets\{closure}() does not exist' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\widgets\Bas...', 'yii\widgets\{cl...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\widgets\Bas...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\widgets\Bas...', 'yii\widgets\{cl...', Array, 20)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\db\Exception))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\db\Exception))
+#13 {main}
+Previous exception:
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_employee' in 'where clause'' in /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php:902
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(902): PDOStatement->execute()
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(Object(yii\db\Connection))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(540): yii\db\ActiveQuery->all(Object(yii\db\Connection))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(204): yii\db\ActiveQuery->findJunctionRows('[<span class="t...')
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQueryTrait.php(174): yii\db\ActiveQuery->populateRelation('<span class="st...', '<span class="st...')
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(215): yii\db\ActiveQuery->findWith('[<span class="s...', '<span class="st...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(214): yii\db\ActiveQuery->populate('[[<span class="...')
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/ActiveDataProvider.php(113): yii\db\ActiveQuery->all('<span class="ke...')
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(81): yii\data\ActiveDataProvider->prepareModels()
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(94): yii\data\BaseDataProvider->prepare()
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(135): yii\data\BaseDataProvider->getModels()
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(182): yii\data\BaseDataProvider->getCount()
+#15 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(153): yii\widgets\BaseListView->renderSummary()
+#16 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('<span class="st...')
+#17 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('<span class="st...')
+#18 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#19 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#20 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#21 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#22 /home/ubuntu/workspace/views/site/index.php(37): yii\base\Widget::widget(Array)
+#23 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#24 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#25 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#26 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#27 /home/ubuntu/workspace/controllers/SiteController.php(73): yii\base\Controller->render('index', Array)
+#28 [internal function]: app\controllers\SiteController->actionIndex()
+#29 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#30 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#31 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#32 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/index', Array)
+#33 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#34 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#35 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_employee' in 'where clause'
+The SQL being executed was: SELECT * FROM `employees_firms` WHERE `id_employee` IN (4, 5, 6, 7)' in /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(917): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(Object(yii\db\Connection))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(540): yii\db\ActiveQuery->all(Object(yii\db\Connection))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(204): yii\db\ActiveQuery->findJunctionRows('[<span class="t...')
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQueryTrait.php(174): yii\db\ActiveQuery->populateRelation('<span class="st...', '<span class="st...')
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(215): yii\db\ActiveQuery->findWith('[<span class="s...', '<span class="st...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(214): yii\db\ActiveQuery->populate('[[<span class="...')
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/ActiveDataProvider.php(113): yii\db\ActiveQuery->all('<span class="ke...')
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(81): yii\data\ActiveDataProvider->prepareModels()
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(94): yii\data\BaseDataProvider->prepare()
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(135): yii\data\BaseDataProvider->getModels()
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(182): yii\data\BaseDataProvider->getCount()
+#15 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(153): yii\widgets\BaseListView->renderSummary()
+#16 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('<span class="st...')
+#17 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('<span class="st...')
+#18 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#19 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#20 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#21 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#22 /home/ubuntu/workspace/views/site/index.php(37): yii\base\Widget::widget(Array)
+#23 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#24 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#25 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#26 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#27 /home/ubuntu/workspace/controllers/SiteController.php(73): yii\base\Controller->render('index', Array)
+#28 [internal function]: app\controllers\SiteController->actionIndex()
+#29 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#30 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#31 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#32 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/index', Array)
+#33 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#34 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#35 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id_employee' in 'where clause'
+)
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'epentel-yii2-golux.c9users.io',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_REFERER' => 'https://epentel-yii2-golux.c9users.io/web/site/index',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'sr-RS,sr;q=0.8,en-US;q=0.6,en;q=0.4',
+    'HTTP_COOKIE' => '_csrf=8622b03a94af416673d2924a970b5df4ec0ad09f1e0d52084ed90d9109643ed0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22f5m1HurP5Jv0WNEL53UftsjzBceVPRQJ%22%3B%7D',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_REGION' => 'eu',
+    'HTTP_X_FORWARDED_FOR' => '24.135.82.119',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.7.3/bin:/usr/local/rvm/gems/ruby-2.3.0/bin:/usr/local/rvm/gems/ruby-2.3.0@global/bin:/usr/local/rvm/rubies/ruby-2.3.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin',
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at epentel-yii2-golux.c9users.io Port 443</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+    'SERVER_NAME' => 'epentel-yii2-golux.c9users.io',
+    'SERVER_ADDR' => '172.17.0.98',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '10.240.0.224',
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php',
+    'REMOTE_PORT' => '41752',
+    'REDIRECT_URL' => '/web/site/index',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/web/site/index',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1490353001.5160000324249267578125,
+    'REQUEST_TIME' => 1490353001,
+]
+[24-Mar-2017 10:56:54 UTC] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\widgets\BaseListView::yii\widgets\{closure}() does not exist' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\widgets\Bas...', 'yii\widgets\{cl...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\widgets\Bas...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\widgets\Bas...', 'yii\widgets\{cl...', Array, 20)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\db\Exception))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\db\Exception))
+#13 {main}
+Previous exception:
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_employee' in 'where clause'' in /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php:902
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(902): PDOStatement->execute()
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(Object(yii\db\Connection))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(540): yii\db\ActiveQuery->all(Object(yii\db\Connection))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(204): yii\db\ActiveQuery->findJunctionRows('[<span class="t...')
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQueryTrait.php(174): yii\db\ActiveQuery->populateRelation('<span class="st...', '<span class="st...')
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(215): yii\db\ActiveQuery->findWith('[<span class="s...', '<span class="st...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(214): yii\db\ActiveQuery->populate('[[<span class="...')
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/ActiveDataProvider.php(113): yii\db\ActiveQuery->all('<span class="ke...')
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(81): yii\data\ActiveDataProvider->prepareModels()
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(94): yii\data\BaseDataProvider->prepare()
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(135): yii\data\BaseDataProvider->getModels()
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(182): yii\data\BaseDataProvider->getCount()
+#15 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(153): yii\widgets\BaseListView->renderSummary()
+#16 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('<span class="st...')
+#17 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('<span class="st...')
+#18 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#19 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#20 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#21 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#22 /home/ubuntu/workspace/views/site/index.php(37): yii\base\Widget::widget(Array)
+#23 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#24 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#25 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#26 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#27 /home/ubuntu/workspace/controllers/SiteController.php(73): yii\base\Controller->render('index', Array)
+#28 [internal function]: app\controllers\SiteController->actionIndex()
+#29 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#30 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#31 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#32 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/index', Array)
+#33 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#34 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#35 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_employee' in 'where clause'
+The SQL being executed was: SELECT * FROM `employees_firms` WHERE `id_employee` IN (4, 5, 6, 7)' in /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(917): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(Object(yii\db\Connection))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(540): yii\db\ActiveQuery->all(Object(yii\db\Connection))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(204): yii\db\ActiveQuery->findJunctionRows('[<span class="t...')
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQueryTrait.php(174): yii\db\ActiveQuery->populateRelation('<span class="st...', '<span class="st...')
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(215): yii\db\ActiveQuery->findWith('[<span class="s...', '<span class="st...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(214): yii\db\ActiveQuery->populate('[[<span class="...')
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/ActiveDataProvider.php(113): yii\db\ActiveQuery->all('<span class="ke...')
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(81): yii\data\ActiveDataProvider->prepareModels()
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(94): yii\data\BaseDataProvider->prepare()
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(135): yii\data\BaseDataProvider->getModels()
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(182): yii\data\BaseDataProvider->getCount()
+#15 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(153): yii\widgets\BaseListView->renderSummary()
+#16 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('<span class="st...')
+#17 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('<span class="st...')
+#18 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#19 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#20 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#21 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#22 /home/ubuntu/workspace/views/site/index.php(37): yii\base\Widget::widget(Array)
+#23 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#24 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#25 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#26 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#27 /home/ubuntu/workspace/controllers/SiteController.php(73): yii\base\Controller->render('index', Array)
+#28 [internal function]: app\controllers\SiteController->actionIndex()
+#29 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#30 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#31 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#32 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/index', Array)
+#33 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#34 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#35 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id_employee' in 'where clause'
+)
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'epentel-yii2-golux.c9users.io',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_REFERER' => 'https://epentel-yii2-golux.c9users.io/web/site/index',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'sr-RS,sr;q=0.8,en-US;q=0.6,en;q=0.4',
+    'HTTP_COOKIE' => '_csrf=8622b03a94af416673d2924a970b5df4ec0ad09f1e0d52084ed90d9109643ed0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22f5m1HurP5Jv0WNEL53UftsjzBceVPRQJ%22%3B%7D; XDEBUG_SESSION=cloud9ide',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_REGION' => 'eu',
+    'HTTP_X_FORWARDED_FOR' => '24.135.82.119',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.7.3/bin:/usr/local/rvm/gems/ruby-2.3.0/bin:/usr/local/rvm/gems/ruby-2.3.0@global/bin:/usr/local/rvm/rubies/ruby-2.3.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin',
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at epentel-yii2-golux.c9users.io Port 443</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+    'SERVER_NAME' => 'epentel-yii2-golux.c9users.io',
+    'SERVER_ADDR' => '172.17.0.98',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '10.240.0.181',
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php',
+    'REMOTE_PORT' => '41024',
+    'REDIRECT_URL' => '/web/site/index',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/web/site/index',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1490353014.7009999752044677734375,
+    'REQUEST_TIME' => 1490353014,
+]
+[24-Mar-2017 10:56:59 UTC] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\widgets\BaseListView::yii\widgets\{closure}() does not exist' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\widgets\Bas...', 'yii\widgets\{cl...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\widgets\Bas...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\widgets\Bas...', 'yii\widgets\{cl...', Array, 20)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\db\Exception))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\db\Exception))
+#13 {main}
+Previous exception:
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_employee' in 'where clause'' in /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php:902
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(902): PDOStatement->execute()
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(Object(yii\db\Connection))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(540): yii\db\ActiveQuery->all(Object(yii\db\Connection))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(204): yii\db\ActiveQuery->findJunctionRows('[<span class="t...')
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQueryTrait.php(174): yii\db\ActiveQuery->populateRelation('<span class="st...', '<span class="st...')
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(215): yii\db\ActiveQuery->findWith('[<span class="s...', '<span class="st...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(214): yii\db\ActiveQuery->populate('[[<span class="...')
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/ActiveDataProvider.php(113): yii\db\ActiveQuery->all('<span class="ke...')
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(81): yii\data\ActiveDataProvider->prepareModels()
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(94): yii\data\BaseDataProvider->prepare()
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(135): yii\data\BaseDataProvider->getModels()
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(182): yii\data\BaseDataProvider->getCount()
+#15 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(153): yii\widgets\BaseListView->renderSummary()
+#16 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('<span class="st...')
+#17 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('<span class="st...')
+#18 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#19 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#20 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#21 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#22 /home/ubuntu/workspace/views/site/index.php(37): yii\base\Widget::widget(Array)
+#23 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#24 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#25 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#26 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#27 /home/ubuntu/workspace/controllers/SiteController.php(73): yii\base\Controller->render('index', Array)
+#28 [internal function]: app\controllers\SiteController->actionIndex()
+#29 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#30 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#31 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#32 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/index', Array)
+#33 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#34 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#35 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_employee' in 'where clause'
+The SQL being executed was: SELECT * FROM `employees_firms` WHERE `id_employee` IN (4, 5, 6, 7)' in /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(917): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(Object(yii\db\Connection))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(540): yii\db\ActiveQuery->all(Object(yii\db\Connection))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(204): yii\db\ActiveQuery->findJunctionRows('[<span class="t...')
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQueryTrait.php(174): yii\db\ActiveQuery->populateRelation('<span class="st...', '<span class="st...')
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(215): yii\db\ActiveQuery->findWith('[<span class="s...', '<span class="st...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(214): yii\db\ActiveQuery->populate('[[<span class="...')
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/ActiveDataProvider.php(113): yii\db\ActiveQuery->all('<span class="ke...')
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(81): yii\data\ActiveDataProvider->prepareModels()
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(94): yii\data\BaseDataProvider->prepare()
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(135): yii\data\BaseDataProvider->getModels()
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(182): yii\data\BaseDataProvider->getCount()
+#15 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(153): yii\widgets\BaseListView->renderSummary()
+#16 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('<span class="st...')
+#17 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('<span class="st...')
+#18 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#19 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#20 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#21 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#22 /home/ubuntu/workspace/views/site/index.php(37): yii\base\Widget::widget(Array)
+#23 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#24 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#25 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#26 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#27 /home/ubuntu/workspace/controllers/SiteController.php(73): yii\base\Controller->render('index', Array)
+#28 [internal function]: app\controllers\SiteController->actionIndex()
+#29 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#30 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#31 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#32 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/index', Array)
+#33 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#34 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#35 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id_employee' in 'where clause'
+)
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'epentel-yii2-golux.c9users.io',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_REFERER' => 'https://epentel-yii2-golux.c9users.io/web/site/index',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'sr-RS,sr;q=0.8,en-US;q=0.6,en;q=0.4',
+    'HTTP_COOKIE' => '_csrf=8622b03a94af416673d2924a970b5df4ec0ad09f1e0d52084ed90d9109643ed0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22f5m1HurP5Jv0WNEL53UftsjzBceVPRQJ%22%3B%7D; XDEBUG_SESSION=cloud9ide',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_REGION' => 'eu',
+    'HTTP_X_FORWARDED_FOR' => '24.135.82.119',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.7.3/bin:/usr/local/rvm/gems/ruby-2.3.0/bin:/usr/local/rvm/gems/ruby-2.3.0@global/bin:/usr/local/rvm/rubies/ruby-2.3.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin',
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at epentel-yii2-golux.c9users.io Port 443</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+    'SERVER_NAME' => 'epentel-yii2-golux.c9users.io',
+    'SERVER_ADDR' => '172.17.0.98',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '10.240.1.18',
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php',
+    'REMOTE_PORT' => '37546',
+    'REDIRECT_URL' => '/web/site/index',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/web/site/index',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1490353019.6099998950958251953125,
+    'REQUEST_TIME' => 1490353019,
+]
+[24-Mar-2017 10:57:43 UTC] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\widgets\BaseListView::yii\widgets\{closure}() does not exist' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\widgets\Bas...', 'yii\widgets\{cl...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\widgets\Bas...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\widgets\Bas...', 'yii\widgets\{cl...', Array, 15)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\InvalidParamException))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidParamException))
+#13 {main}
+Previous exception:
+exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: app\models\Employee::getfirm()' in /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:290
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/BaseActiveRecord.php(1184): yii\base\Component->__call('getfirm', Array)
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/BaseActiveRecord.php(1184): app\models\Employee->getfirm()
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQueryTrait.php(200): yii\db\BaseActiveRecord->getRelation('<span class="st...')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQueryTrait.php(167): yii\db\ActiveQuery->normalizeRelations(Object(app\models\Employee), '[<span class="s...')
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(215): yii\db\ActiveQuery->findWith('[<span class="s...', '[<span class="t...')
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(214): yii\db\ActiveQuery->populate('[[<span class="...')
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/ActiveDataProvider.php(113): yii\db\ActiveQuery->all('<span class="ke...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(81): yii\data\ActiveDataProvider->prepareModels()
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(94): yii\data\BaseDataProvider->prepare()
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(135): yii\data\BaseDataProvider->getModels()
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(182): yii\data\BaseDataProvider->getCount()
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(153): yii\widgets\BaseListView->renderSummary()
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('<span class="st...')
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('<span class="st...')
+#15 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#16 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#17 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#18 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#19 /home/ubuntu/workspace/views/site/index.php(37): yii\base\Widget::widget(Array)
+#20 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#21 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#22 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#23 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#24 /home/ubuntu/workspace/controllers/SiteController.php(73): yii\base\Controller->render('index', Array)
+#25 [internal function]: app\controllers\SiteController->actionIndex()
+#26 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#27 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#28 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#29 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/index', Array)
+#30 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#31 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#32 {main}
+
+Next exception 'yii\base\InvalidParamException' with message 'app\models\Employee has no relation named "firm".' in /home/ubuntu/workspace/vendor/yiisoft/yii2/db/BaseActiveRecord.php:1187
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQueryTrait.php(200): yii\db\BaseActiveRecord->getRelation('<span class="st...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQueryTrait.php(167): yii\db\ActiveQuery->normalizeRelations(Object(app\models\Employee), '[<span class="s...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(215): yii\db\ActiveQuery->findWith('[<span class="s...', '[<span class="t...')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(214): yii\db\ActiveQuery->populate('[[<span class="...')
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/ActiveDataProvider.php(113): yii\db\ActiveQuery->all('<span class="ke...')
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(81): yii\data\ActiveDataProvider->prepareModels()
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(94): yii\data\BaseDataProvider->prepare()
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(135): yii\data\BaseDataProvider->getModels()
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(182): yii\data\BaseDataProvider->getCount()
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(153): yii\widgets\BaseListView->renderSummary()
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('<span class="st...')
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('<span class="st...')
+#13 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#15 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#16 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#17 /home/ubuntu/workspace/views/site/index.php(37): yii\base\Widget::widget(Array)
+#18 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#19 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#20 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#21 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#22 /home/ubuntu/workspace/controllers/SiteController.php(73): yii\base\Controller->render('index', Array)
+#23 [internal function]: app\controllers\SiteController->actionIndex()
+#24 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#25 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#26 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#27 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/index', Array)
+#28 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#30 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'epentel-yii2-golux.c9users.io',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_REFERER' => 'https://epentel-yii2-golux.c9users.io/web/site/index',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'sr-RS,sr;q=0.8,en-US;q=0.6,en;q=0.4',
+    'HTTP_COOKIE' => '_csrf=8622b03a94af416673d2924a970b5df4ec0ad09f1e0d52084ed90d9109643ed0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22f5m1HurP5Jv0WNEL53UftsjzBceVPRQJ%22%3B%7D; XDEBUG_SESSION=cloud9ide',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_REGION' => 'eu',
+    'HTTP_X_FORWARDED_FOR' => '24.135.82.119',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.7.3/bin:/usr/local/rvm/gems/ruby-2.3.0/bin:/usr/local/rvm/gems/ruby-2.3.0@global/bin:/usr/local/rvm/rubies/ruby-2.3.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin',
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at epentel-yii2-golux.c9users.io Port 443</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+    'SERVER_NAME' => 'epentel-yii2-golux.c9users.io',
+    'SERVER_ADDR' => '172.17.0.98',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '10.240.1.31',
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php',
+    'REMOTE_PORT' => '42316',
+    'REDIRECT_URL' => '/web/site/index',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/web/site/index',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1490353063.0380001068115234375,
+    'REQUEST_TIME' => 1490353063,
+]
+[24-Mar-2017 10:57:51 UTC] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\widgets\BaseListView::yii\widgets\{closure}() does not exist' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\widgets\Bas...', 'yii\widgets\{cl...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\widgets\Bas...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\widgets\Bas...', 'yii\widgets\{cl...', Array, 20)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\db\Exception))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\db\Exception))
+#13 {main}
+Previous exception:
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_employee' in 'where clause'' in /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php:902
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(902): PDOStatement->execute()
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(Object(yii\db\Connection))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(540): yii\db\ActiveQuery->all(Object(yii\db\Connection))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(204): yii\db\ActiveQuery->findJunctionRows('[<span class="t...')
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQueryTrait.php(174): yii\db\ActiveQuery->populateRelation('<span class="st...', '<span class="st...')
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(215): yii\db\ActiveQuery->findWith('[<span class="s...', '<span class="st...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(214): yii\db\ActiveQuery->populate('[[<span class="...')
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/ActiveDataProvider.php(113): yii\db\ActiveQuery->all('<span class="ke...')
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(81): yii\data\ActiveDataProvider->prepareModels()
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(94): yii\data\BaseDataProvider->prepare()
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(135): yii\data\BaseDataProvider->getModels()
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(182): yii\data\BaseDataProvider->getCount()
+#15 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(153): yii\widgets\BaseListView->renderSummary()
+#16 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('<span class="st...')
+#17 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('<span class="st...')
+#18 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#19 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#20 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#21 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#22 /home/ubuntu/workspace/views/site/index.php(37): yii\base\Widget::widget(Array)
+#23 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#24 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#25 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#26 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#27 /home/ubuntu/workspace/controllers/SiteController.php(73): yii\base\Controller->render('index', Array)
+#28 [internal function]: app\controllers\SiteController->actionIndex()
+#29 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#30 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#31 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#32 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/index', Array)
+#33 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#34 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#35 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_employee' in 'where clause'
+The SQL being executed was: SELECT * FROM `employees_firms` WHERE `id_employee` IN (4, 5, 6, 7)' in /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(917): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(Object(yii\db\Connection))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(540): yii\db\ActiveQuery->all(Object(yii\db\Connection))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveRelationTrait.php(204): yii\db\ActiveQuery->findJunctionRows('[<span class="t...')
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQueryTrait.php(174): yii\db\ActiveQuery->populateRelation('<span class="st...', '<span class="st...')
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(215): yii\db\ActiveQuery->findWith('[<span class="s...', '<span class="st...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/Query.php(214): yii\db\ActiveQuery->populate('[[<span class="...')
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/ActiveDataProvider.php(113): yii\db\ActiveQuery->all('<span class="ke...')
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(81): yii\data\ActiveDataProvider->prepareModels()
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(94): yii\data\BaseDataProvider->prepare()
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/data/BaseDataProvider.php(135): yii\data\BaseDataProvider->getModels()
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(182): yii\data\BaseDataProvider->getCount()
+#15 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(153): yii\widgets\BaseListView->renderSummary()
+#16 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('<span class="st...')
+#17 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('<span class="st...')
+#18 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#19 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#20 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#21 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#22 /home/ubuntu/workspace/views/site/index.php(37): yii\base\Widget::widget(Array)
+#23 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#24 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#25 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#26 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#27 /home/ubuntu/workspace/controllers/SiteController.php(73): yii\base\Controller->render('index', Array)
+#28 [internal function]: app\controllers\SiteController->actionIndex()
+#29 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#30 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#31 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#32 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/index', Array)
+#33 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#34 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#35 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id_employee' in 'where clause'
+)
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'epentel-yii2-golux.c9users.io',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_REFERER' => 'https://epentel-yii2-golux.c9users.io/web/site/index',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'sr-RS,sr;q=0.8,en-US;q=0.6,en;q=0.4',
+    'HTTP_COOKIE' => '_csrf=8622b03a94af416673d2924a970b5df4ec0ad09f1e0d52084ed90d9109643ed0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22f5m1HurP5Jv0WNEL53UftsjzBceVPRQJ%22%3B%7D; XDEBUG_SESSION=cloud9ide',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_REGION' => 'eu',
+    'HTTP_X_FORWARDED_FOR' => '24.135.82.119',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.7.3/bin:/usr/local/rvm/gems/ruby-2.3.0/bin:/usr/local/rvm/gems/ruby-2.3.0@global/bin:/usr/local/rvm/rubies/ruby-2.3.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin',
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at epentel-yii2-golux.c9users.io Port 443</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+    'SERVER_NAME' => 'epentel-yii2-golux.c9users.io',
+    'SERVER_ADDR' => '172.17.0.98',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '10.240.0.215',
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php',
+    'REMOTE_PORT' => '45358',
+    'REDIRECT_URL' => '/web/site/index',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/web/site/index',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1490353071.138000011444091796875,
+    'REQUEST_TIME' => 1490353071,
+]
+[24-Mar-2017 11:31:13 UTC] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\widgets\BaseListView::yii\widgets\{closure}() does not exist' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\widgets\Bas...', 'yii\widgets\{cl...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\widgets\Bas...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\widgets\Bas...', 'yii\widgets\{cl...', Array, 13)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#13 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Employee::ime_firme' in /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:147
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/BaseActiveRecord.php(286): yii\base\Component->__get('ime_firme')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php(209): yii\db\BaseActiveRecord->__get('ime_firme')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/DataColumn.php(216): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Employee), 'ime_firme')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/DataColumn.php(227): yii\grid\DataColumn->getDataCellValue(Object(app\models\Employee), 4, 0)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/Column.php(110): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Employee), 4, 0)
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(507): yii\grid\Column->renderDataCell(Object(app\models\Employee), 4, 0)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(476): yii\grid\GridView->renderTableRow(Object(app\models\Employee), 4, 0)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(347): yii\grid\GridView->renderTableBody()
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(155): yii\grid\GridView->renderItems()
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('{items}')
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('{items}')
+#11 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#15 /home/ubuntu/workspace/views/site/index.php(38): yii\base\Widget::widget(Array)
+#16 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#17 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#18 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#19 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#20 /home/ubuntu/workspace/controllers/SiteController.php(73): yii\base\Controller->render('index', Array)
+#21 [internal function]: app\controllers\SiteController->actionIndex()
+#22 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#23 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#24 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#25 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#26 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#28 {main}
+$_SERVER = [
+    'HTTP_HOST' => 'epentel-yii2-golux.c9users.io',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'sr-RS,sr;q=0.8,en-US;q=0.6,en;q=0.4',
+    'HTTP_COOKIE' => '_csrf=8622b03a94af416673d2924a970b5df4ec0ad09f1e0d52084ed90d9109643ed0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22f5m1HurP5Jv0WNEL53UftsjzBceVPRQJ%22%3B%7D; XDEBUG_SESSION=cloud9ide',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_REGION' => 'eu',
+    'HTTP_X_FORWARDED_FOR' => '24.135.82.119',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.7.3/bin:/usr/local/rvm/gems/ruby-2.3.0/bin:/usr/local/rvm/gems/ruby-2.3.0@global/bin:/usr/local/rvm/rubies/ruby-2.3.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin',
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at epentel-yii2-golux.c9users.io Port 443</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+    'SERVER_NAME' => 'epentel-yii2-golux.c9users.io',
+    'SERVER_ADDR' => '172.17.0.98',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '10.240.1.31',
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php',
+    'REMOTE_PORT' => '34786',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/web/',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1490355073.4110000133514404296875,
+    'REQUEST_TIME' => 1490355073,
+]
+[24-Mar-2017 12:16:53 UTC] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\widgets\BaseListView::yii\widgets\{closure}() does not exist' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\widgets\Bas...', 'yii\widgets\{cl...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\widgets\Bas...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\widgets\Bas...', 'yii\widgets\{cl...', Array, 13)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#13 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Employee::ime_firme' in /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:147
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/BaseActiveRecord.php(286): yii\base\Component->__get('ime_firme')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php(209): yii\db\BaseActiveRecord->__get('ime_firme')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/DataColumn.php(216): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Employee), 'ime_firme')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/DataColumn.php(227): yii\grid\DataColumn->getDataCellValue(Object(app\models\Employee), 8, 0)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/Column.php(110): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Employee), 8, 0)
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(507): yii\grid\Column->renderDataCell(Object(app\models\Employee), 8, 0)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(476): yii\grid\GridView->renderTableRow(Object(app\models\Employee), 8, 0)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(347): yii\grid\GridView->renderTableBody()
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(155): yii\grid\GridView->renderItems()
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('{items}')
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('{items}')
+#11 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#15 /home/ubuntu/workspace/views/site/index.php(38): yii\base\Widget::widget(Array)
+#16 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#17 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#18 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#19 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#20 /home/ubuntu/workspace/controllers/SiteController.php(73): yii\base\Controller->render('index', Array)
+#21 [internal function]: app\controllers\SiteController->actionIndex()
+#22 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#23 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#24 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#25 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#26 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#28 {main}
+$_SERVER = [
+    'HTTP_HOST' => 'epentel-yii2-golux.c9users.io',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_REFERER' => 'https://epentel-yii2-golux.c9users.io/web/employee/index',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'sr-RS,sr;q=0.8,en-US;q=0.6,en;q=0.4',
+    'HTTP_COOKIE' => '_csrf=8622b03a94af416673d2924a970b5df4ec0ad09f1e0d52084ed90d9109643ed0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22f5m1HurP5Jv0WNEL53UftsjzBceVPRQJ%22%3B%7D; XDEBUG_SESSION=cloud9ide',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_REGION' => 'eu',
+    'HTTP_X_FORWARDED_FOR' => '24.135.82.119',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.7.3/bin:/usr/local/rvm/gems/ruby-2.3.0/bin:/usr/local/rvm/gems/ruby-2.3.0@global/bin:/usr/local/rvm/rubies/ruby-2.3.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin',
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at epentel-yii2-golux.c9users.io Port 443</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+    'SERVER_NAME' => 'epentel-yii2-golux.c9users.io',
+    'SERVER_ADDR' => '172.17.0.98',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '10.240.0.215',
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php',
+    'REMOTE_PORT' => '47276',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/web/',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1490357813.21000003814697265625,
+    'REQUEST_TIME' => 1490357813,
+]
+[24-Mar-2017 12:21:29 UTC] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\widgets\BaseListView::yii\widgets\{closure}() does not exist' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\widgets\Bas...', 'yii\widgets\{cl...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\widgets\Bas...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\widgets\Bas...', 'yii\widgets\{cl...', Array, 13)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#13 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Employee::ime_firme' in /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:147
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/BaseActiveRecord.php(286): yii\base\Component->__get('ime_firme')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php(209): yii\db\BaseActiveRecord->__get('ime_firme')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/DataColumn.php(216): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Employee), 'ime_firme')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/DataColumn.php(227): yii\grid\DataColumn->getDataCellValue(Object(app\models\Employee), 8, 0)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/Column.php(110): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Employee), 8, 0)
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(507): yii\grid\Column->renderDataCell(Object(app\models\Employee), 8, 0)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(476): yii\grid\GridView->renderTableRow(Object(app\models\Employee), 8, 0)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(347): yii\grid\GridView->renderTableBody()
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(155): yii\grid\GridView->renderItems()
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('{items}')
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('{items}')
+#11 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#15 /home/ubuntu/workspace/views/employee/index.php(34): yii\base\Widget::widget(Array)
+#16 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#17 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#18 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\EmployeeController))
+#19 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\EmployeeController))
+#20 /home/ubuntu/workspace/controllers/EmployeeController.php(44): yii\base\Controller->render('index', Array)
+#21 [internal function]: app\controllers\EmployeeController->actionIndex()
+#22 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#23 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#24 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#25 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('employee', Array)
+#26 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#28 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'epentel-yii2-golux.c9users.io',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'sr-RS,sr;q=0.8,en-US;q=0.6,en;q=0.4',
+    'HTTP_COOKIE' => '_csrf=8622b03a94af416673d2924a970b5df4ec0ad09f1e0d52084ed90d9109643ed0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22f5m1HurP5Jv0WNEL53UftsjzBceVPRQJ%22%3B%7D; XDEBUG_SESSION=cloud9ide',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_REGION' => 'eu',
+    'HTTP_X_FORWARDED_FOR' => '24.135.82.119',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.7.3/bin:/usr/local/rvm/gems/ruby-2.3.0/bin:/usr/local/rvm/gems/ruby-2.3.0@global/bin:/usr/local/rvm/rubies/ruby-2.3.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin',
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at epentel-yii2-golux.c9users.io Port 443</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+    'SERVER_NAME' => 'epentel-yii2-golux.c9users.io',
+    'SERVER_ADDR' => '172.17.0.98',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '10.240.0.225',
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php',
+    'REMOTE_PORT' => '47020',
+    'REDIRECT_URL' => '/web/employee',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/web/employee',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1490358089.40100002288818359375,
+    'REQUEST_TIME' => 1490358089,
+]
+[24-Mar-2017 12:37:34 UTC] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\widgets\BaseListView::yii\widgets\{closure}() does not exist' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\widgets\Bas...', 'yii\widgets\{cl...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\widgets\Bas...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\widgets\Bas...', 'yii\widgets\{cl...', Array, 13)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#13 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Firms::displayname' in /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:147
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/BaseActiveRecord.php(286): yii\base\Component->__get('displayname')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php(209): yii\db\BaseActiveRecord->__get('displayname')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/DataColumn.php(216): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Employee), 'firm.displaynam...')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/DataColumn.php(227): yii\grid\DataColumn->getDataCellValue(Object(app\models\Employee), 8, 0)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/Column.php(110): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Employee), 8, 0)
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(507): yii\grid\Column->renderDataCell(Object(app\models\Employee), 8, 0)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(476): yii\grid\GridView->renderTableRow(Object(app\models\Employee), 8, 0)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(347): yii\grid\GridView->renderTableBody()
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(155): yii\grid\GridView->renderItems()
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('{items}')
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('{items}')
+#11 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#15 /home/ubuntu/workspace/views/employee/index.php(34): yii\base\Widget::widget(Array)
+#16 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#17 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#18 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\EmployeeController))
+#19 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\EmployeeController))
+#20 /home/ubuntu/workspace/controllers/EmployeeController.php(44): yii\base\Controller->render('index', Array)
+#21 [internal function]: app\controllers\EmployeeController->actionIndex()
+#22 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#23 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#24 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#25 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('employee', Array)
+#26 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#28 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'epentel-yii2-golux.c9users.io',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'sr-RS,sr;q=0.8,en-US;q=0.6,en;q=0.4',
+    'HTTP_COOKIE' => '_csrf=8622b03a94af416673d2924a970b5df4ec0ad09f1e0d52084ed90d9109643ed0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22f5m1HurP5Jv0WNEL53UftsjzBceVPRQJ%22%3B%7D; XDEBUG_SESSION=cloud9ide',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_REGION' => 'eu',
+    'HTTP_X_FORWARDED_FOR' => '24.135.82.119',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.7.3/bin:/usr/local/rvm/gems/ruby-2.3.0/bin:/usr/local/rvm/gems/ruby-2.3.0@global/bin:/usr/local/rvm/rubies/ruby-2.3.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin',
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at epentel-yii2-golux.c9users.io Port 443</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+    'SERVER_NAME' => 'epentel-yii2-golux.c9users.io',
+    'SERVER_ADDR' => '172.17.0.98',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '10.240.1.18',
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php',
+    'REMOTE_PORT' => '37396',
+    'REDIRECT_URL' => '/web/employee',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/web/employee',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1490359054.4820001125335693359375,
+    'REQUEST_TIME' => 1490359054,
+]
+[24-Mar-2017 12:42:51 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/models/Employee.php on line 37
+[24-Mar-2017 12:42:51 UTC] PHP Stack trace:
+[24-Mar-2017 12:42:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[24-Mar-2017 12:42:51 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[24-Mar-2017 12:42:51 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:380
+[24-Mar-2017 12:42:51 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:102
+[24-Mar-2017 12:42:51 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:523
+[24-Mar-2017 12:42:51 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:156
+[24-Mar-2017 12:42:51 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Mar-2017 12:42:51 UTC] PHP   8. app\controllers\EmployeeController->actionCreate() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Mar-2017 12:42:51 UTC] PHP   9. spl_autoload_call() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:66
+[24-Mar-2017 12:42:51 UTC] PHP  10. yii\BaseYii::autoload() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:66
+[24-Mar-2017 12:56:37 UTC] PHP Parse error:  syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/ubuntu/workspace/views/site/index.php on line 30
+[24-Mar-2017 12:56:37 UTC] PHP Stack trace:
+[24-Mar-2017 12:56:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[24-Mar-2017 12:56:37 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[24-Mar-2017 12:56:37 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:380
+[24-Mar-2017 12:56:37 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:102
+[24-Mar-2017 12:56:37 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:523
+[24-Mar-2017 12:56:37 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:156
+[24-Mar-2017 12:56:37 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Mar-2017 12:56:37 UTC] PHP   8. app\controllers\SiteController->actionIndex() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Mar-2017 12:56:37 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/controllers/SiteController.php:74
+[24-Mar-2017 12:56:37 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:381
+[24-Mar-2017 12:56:37 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:152
+[24-Mar-2017 12:56:37 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:250
+[24-Mar-2017 12:57:13 UTC] PHP Parse error:  syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/ubuntu/workspace/views/site/index.php on line 30
+[24-Mar-2017 12:57:13 UTC] PHP Stack trace:
+[24-Mar-2017 12:57:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[24-Mar-2017 12:57:13 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[24-Mar-2017 12:57:13 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:380
+[24-Mar-2017 12:57:13 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:102
+[24-Mar-2017 12:57:13 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:523
+[24-Mar-2017 12:57:13 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:156
+[24-Mar-2017 12:57:13 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Mar-2017 12:57:13 UTC] PHP   8. app\controllers\SiteController->actionIndex() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Mar-2017 12:57:13 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/controllers/SiteController.php:74
+[24-Mar-2017 12:57:13 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:381
+[24-Mar-2017 12:57:13 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:152
+[24-Mar-2017 12:57:13 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:250
+[24-Mar-2017 12:57:37 UTC] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\widgets\BaseListView::yii\widgets\{closure}() does not exist' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\widgets\Bas...', 'yii\widgets\{cl...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\widgets\Bas...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\widgets\Bas...', 'yii\widgets\{cl...', Array, 18)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#13 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Employee::foreach($dataProvider->firms as $firm) {
+                    $str ' in /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:147
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/BaseActiveRecord.php(286): yii\base\Component->__get('foreach($dataPr...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php(209): yii\db\BaseActiveRecord->__get('foreach($dataPr...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php(202): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Employee), 'foreach($dataPr...', NULL)
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php(202): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Employee), 'foreach($dataPr...', NULL)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php(202): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Employee), 'foreach($dataPr...', NULL)
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php(202): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Employee), 'foreach($dataPr...', NULL)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php(202): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Employee), 'foreach($dataPr...', NULL)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/DataColumn.php(216): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Employee), 'foreach($dataPr...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/DataColumn.php(227): yii\grid\DataColumn->getDataCellValue(Object(app\models\Employee), 8, 0)
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/Column.php(110): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Employee), 8, 0)
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(507): yii\grid\Column->renderDataCell(Object(app\models\Employee), 8, 0)
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(476): yii\grid\GridView->renderTableRow(Object(app\models\Employee), 8, 0)
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(347): yii\grid\GridView->renderTableBody()
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(155): yii\grid\GridView->renderItems()
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('{items}')
+#15 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('{items}')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#17 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#18 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#19 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#20 /home/ubuntu/workspace/views/site/index.php(38): yii\base\Widget::widget(Array)
+#21 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#22 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#23 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#24 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#25 /home/ubuntu/workspace/controllers/SiteController.php(74): yii\base\Controller->render('index', Array)
+#26 [internal function]: app\controllers\SiteController->actionIndex()
+#27 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#28 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#29 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#30 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#31 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#33 {main}
+$_SERVER = [
+    'HTTP_HOST' => 'epentel-yii2-golux.c9users.io',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'sr-RS,sr;q=0.8,en-US;q=0.6,en;q=0.4',
+    'HTTP_COOKIE' => '_csrf=8622b03a94af416673d2924a970b5df4ec0ad09f1e0d52084ed90d9109643ed0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22f5m1HurP5Jv0WNEL53UftsjzBceVPRQJ%22%3B%7D',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_REGION' => 'eu',
+    'HTTP_X_FORWARDED_FOR' => '24.135.82.119',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.7.3/bin:/usr/local/rvm/gems/ruby-2.3.0/bin:/usr/local/rvm/gems/ruby-2.3.0@global/bin:/usr/local/rvm/rubies/ruby-2.3.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin',
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at epentel-yii2-golux.c9users.io Port 443</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+    'SERVER_NAME' => 'epentel-yii2-golux.c9users.io',
+    'SERVER_ADDR' => '172.17.0.98',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '10.240.1.18',
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php',
+    'REMOTE_PORT' => '44748',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/web/',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1490360257.867000102996826171875,
+    'REQUEST_TIME' => 1490360257,
+]
+[24-Mar-2017 12:58:18 UTC] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\widgets\BaseListView::yii\widgets\{closure}() does not exist' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\widgets\Bas...', 'yii\widgets\{cl...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\widgets\Bas...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\widgets\Bas...', 'yii\widgets\{cl...', Array, 18)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#13 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Employee::foreach(firms as $firm) {
+                    $str ' in /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:147
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/db/BaseActiveRecord.php(286): yii\base\Component->__get('foreach(firms a...')
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php(209): yii\db\BaseActiveRecord->__get('foreach(firms a...')
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php(202): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Employee), 'foreach(firms a...', NULL)
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php(202): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Employee), 'foreach(firms a...', NULL)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php(202): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Employee), 'foreach(firms a...', NULL)
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php(202): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Employee), 'foreach(firms a...', NULL)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php(202): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Employee), 'foreach(firms a...', NULL)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/DataColumn.php(216): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Employee), 'foreach(firms a...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/DataColumn.php(227): yii\grid\DataColumn->getDataCellValue(Object(app\models\Employee), 8, 0)
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/Column.php(110): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Employee), 8, 0)
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(507): yii\grid\Column->renderDataCell(Object(app\models\Employee), 8, 0)
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(476): yii\grid\GridView->renderTableRow(Object(app\models\Employee), 8, 0)
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(347): yii\grid\GridView->renderTableBody()
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(155): yii\grid\GridView->renderItems()
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('{items}')
+#15 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('{items}')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#17 /home/ubuntu/workspace/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#18 /home/ubuntu/workspace/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#19 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#20 /home/ubuntu/workspace/views/site/index.php(38): yii\base\Widget::widget(Array)
+#21 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(328): require('/home/ubuntu/wo...')
+#22 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#23 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#24 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#25 /home/ubuntu/workspace/controllers/SiteController.php(74): yii\base\Controller->render('index', Array)
+#26 [internal function]: app\controllers\SiteController->actionIndex()
+#27 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#28 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#29 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#30 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#31 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#33 {main}
+$_SERVER = [
+    'HTTP_HOST' => 'epentel-yii2-golux.c9users.io',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'sr-RS,sr;q=0.8,en-US;q=0.6,en;q=0.4',
+    'HTTP_COOKIE' => '_csrf=8622b03a94af416673d2924a970b5df4ec0ad09f1e0d52084ed90d9109643ed0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22f5m1HurP5Jv0WNEL53UftsjzBceVPRQJ%22%3B%7D; XDEBUG_SESSION=cloud9ide',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_REGION' => 'eu',
+    'HTTP_X_FORWARDED_FOR' => '24.135.82.119',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.7.3/bin:/usr/local/rvm/gems/ruby-2.3.0/bin:/usr/local/rvm/gems/ruby-2.3.0@global/bin:/usr/local/rvm/rubies/ruby-2.3.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin',
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at epentel-yii2-golux.c9users.io Port 443</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+    'SERVER_NAME' => 'epentel-yii2-golux.c9users.io',
+    'SERVER_ADDR' => '172.17.0.98',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '10.240.0.181',
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php',
+    'REMOTE_PORT' => '55214',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/web/',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1490360298.0659999847412109375,
+    'REQUEST_TIME' => 1490360298,
+]
+[24-Mar-2017 12:59:14 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ']' in /home/ubuntu/workspace/views/site/index.php on line 28
+[24-Mar-2017 12:59:14 UTC] PHP Stack trace:
+[24-Mar-2017 12:59:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[24-Mar-2017 12:59:14 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[24-Mar-2017 12:59:14 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:380
+[24-Mar-2017 12:59:14 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:102
+[24-Mar-2017 12:59:14 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:523
+[24-Mar-2017 12:59:14 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:156
+[24-Mar-2017 12:59:14 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Mar-2017 12:59:14 UTC] PHP   8. app\controllers\SiteController->actionIndex() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:57
+[24-Mar-2017 12:59:14 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/controllers/SiteController.php:74
+[24-Mar-2017 12:59:14 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:381
+[24-Mar-2017 12:59:14 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:152
+[24-Mar-2017 12:59:14 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:250

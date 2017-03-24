@@ -6,7 +6,7 @@ use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model app\models\Employee */
 
-$this->title = $model->id;
+$this->title = 'Pregled zaposlenog';
 $this->params['breadcrumbs'][] = ['label' => 'Employees', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
@@ -31,15 +31,11 @@ $this->params['breadcrumbs'][] = $this->title;
             'id',
             'Ime',
             'Prezime',
-            'Zanimanje',/*
+            'Zanimanje',
             'created_at',
-            'updated_at',*/
-        ]
+            'updated_at',
+            'firm_id',
+        ],
     ]) ?>
-
-    <?php
-        // And here it is: an array of Rule objects!!!!! 
-        var_dump('skdaskdjal');
-    ?>
 
 </div>

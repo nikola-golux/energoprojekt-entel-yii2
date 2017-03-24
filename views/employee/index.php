@@ -6,7 +6,7 @@ use yii\grid\GridView;
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Employees';
+$this->title = 'Zaposleni';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="employee-index">
@@ -25,8 +25,9 @@ $this->params['breadcrumbs'][] = $this->title;
             'Ime',
             'Prezime',
             'Zanimanje',
-            'created_at',
+            'firm.ime_firme:text:Firma',
             // 'updated_at',
+            // 'firm_id',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
